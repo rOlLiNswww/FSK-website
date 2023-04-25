@@ -1,0 +1,28 @@
+.logo{
+    width: 27%;
+    height: 44%;
+    margin-right: 22%;
+    margin-top: 12%;
+    border-radius: 10%;
+    float: right;
+    display: flex;
+    animation:mymove 1.5s infinite;
+    -webkit-animation:mymove 1.5s infinite;
+
+}
+
+
+@keyframes mymove{
+    0% {transform: translate(0px, 0px);}
+    50% {transform: translate(0px, -20px);}
+    100% {transform: translate(0px, 0px);}
+
+}
+
+/*Safari 和 Chrome:*/
+@-webkit-keyframes mymove
+{
+    0% {transform: translate(0px, 0px);}
+    50% {transform: translate(0px, -10px);}
+    100% {transform: translate(0px, 0px);}
+}

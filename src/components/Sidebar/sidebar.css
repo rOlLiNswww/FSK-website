@@ -1,0 +1,38 @@
+.sideBar{
+    background-color: #1b2a40;
+    width: 7%;
+    height: 820px;
+    float: left;
+    position: fixed;
+}
+
+.sideBarButton{
+    width: 60px;
+    height: 50px;
+    margin: 20px 20px;
+    cursor: pointer;
+    background-size: 100% 100%;
+}
+
+.sideBarButton:hover {
+    box-shadow: 0 16px 32px 0 rgba(48, 55, 66, 0.15);
+    transform: translate(0,-5px);
+    transition-delay: 0s !important;
+}
+
+.home{
+    background-image: url("./home.png");
+}
+.add{
+    background-image: url("./plus.png");
+}
+.person{
+    background-image: url("./person.png");
+}
+.light{
+    background-image: url("./light.png");
+}
+.exit{
+    background-image: url("./exit.png");
+}
+
