@@ -3,7 +3,7 @@ import Sidebar from "./components/Sidebar";
 import TopBar from "./components/topBar";
 import "./App.css"
 import FriendBox from "./components/DashBoard/friendBox";
-import Search from "./components/search";
+
 
 
 class App extends Component {
