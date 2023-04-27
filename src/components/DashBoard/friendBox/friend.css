@@ -71,3 +71,13 @@
     font-family: Comic Sans MS, Comic Sans, cursive;
     margin-top: -15%;
 }
+
+img{
+    width: 75px;
+    height: 75px;
+    border-radius: 15px;
+    margin-top: 2.5%;
+    margin-left: 3.5%;
+    cursor: pointer;
+}
+
