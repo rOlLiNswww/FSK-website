@@ -47,7 +47,6 @@ class Index extends Component {
                     </div>
                     <input type="submit" className="submitBtn" value="Save"/>
                 </form>
-
                 <div className="imgBox">
                     <div className="Img"></div>
                     <input type='file' className="imageUpload" accept=".png, .jpg, .jpeg"/>

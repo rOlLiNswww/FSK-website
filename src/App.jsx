@@ -5,6 +5,7 @@ import "./App.css"
 import FriendBox from "./components/DashBoard/friendBox";
 import AddFriend from "./components/DashBoard/addFriend";
 import AddNewRelationship from "./components/addNewRelationship";
+import SignUp from "./components/signUp";
 
 
 
