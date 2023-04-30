@@ -5,7 +5,7 @@ class Index extends Component {
     render() {
         return (
             <div>
-                <div className="profilePicBox"><img className="profilePic" src="src/tony.png" alt=""/>
+                <div className="profilePicBox"><img className="profilePic" src={[require("./defultProPic.jpeg")]} alt=""/>
                     <p className="name"> Tony Stark</p></div>
                 <div className="profileInfo">
                     <p className="subTitle AB">About</p>

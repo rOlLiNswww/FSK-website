@@ -15,6 +15,7 @@
     border-right: white 1px solid;
     float: left;
     margin-top: 1%;
+    font-family: Comic Sans MS, Comic Sans, cursive;
 }
 
 
@@ -44,13 +45,6 @@
     margin-top: -1.5%;
 }
 
-.blockStyle{
-    display: inline;
-    color: #e56b6f;
-    margin-top: -10%;
-    font-family: Comic Sans MS, Comic Sans, cursive;
-}
-
 .pie{
     margin-left: 4%;
     width: 300px;
@@ -72,7 +66,7 @@
     margin-top: -15%;
 }
 
-img{
+.buttonImg{
     width: 75px;
     height: 75px;
     border-radius: 15px;

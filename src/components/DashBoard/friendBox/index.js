@@ -16,11 +16,11 @@ class Index extends Component {
                 <div className="friendBox" ref="input1" >
                     <div className="infoBox"><ProfilePic name={this.props.name} Av={this.props.Av}/></div>
                     <div className="infoBox"><Intimacy Fa={this.props.Fa} In={this.props.In} Si={this.props.Si}/></div>
-                    <img src={[require("./editBtn.png")]} alt=""/>
-                    <img onClick={()=>{this.showBox();
+                    <img className="buttonImg" src={[require("./editBtn.png")]} alt=""/>
+                    <img className="buttonImg" onClick={()=>{this.showBox();
                         this.showPie(this.refs.c1.id,41,53,51,56,14);
                         this.showFlow(this.refs.c2.id,65,75,78,70,50,70,75,80,85,95,95)}} src={[require("./infoBtn.png")]} alt=""/>
-                    <img src={[require("./deleteBtn.png")]} alt=""/>
+                    <img className="buttonImg" src={[require("./deleteBtn.png")]} alt=""/>
                     <div className="Info" ref="infoBox">
                         <p className="subTitle">Personality</p>
                         <div ref="c1" id={this.uniqueId()} className="pie"></div>

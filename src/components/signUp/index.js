@@ -8,7 +8,7 @@ class Index extends Component {
                 <img src={[require("./logo3.png")]} className="logo"/>
                 <div className="darkBox">
                     <form action="" className="signForm">
-                        <h1 className="title">Sign up</h1>
+                        <h1 className="signTitle">Sign up</h1>
                         <div className="inputContainer">
                             <input type="text" name="first_name" className="input"/>
                             <label className="label">First Name:</label>

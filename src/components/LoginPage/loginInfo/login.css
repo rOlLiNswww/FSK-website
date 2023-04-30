@@ -8,6 +8,7 @@ a{
     background-color: #2D3f51;
     width: 30%;
     height: 1000px;
+    float: left;
 }
 
 
@@ -18,7 +19,8 @@ a{
     color: #FF6868;
 }
 
-input[type="text"], input[type="password"]{
+
+.loginInput{
     border-radius: 15px;
     border: 2px solid grey;
     background: white;
@@ -32,7 +34,7 @@ input[type="text"], input[type="password"]{
     transition: 0.25s;
 }
 /* 设置文本框获得焦点时的样式 */
-input[type="text"]:focus, input[type="password"]:focus{
+.loginInput:focus{
     width: 280px;
     border-color: grey;
     background-color: white;
@@ -81,4 +83,32 @@ label{
 }
 
 
+.logo{
+    width: 27%;
+    height: 44%;
+    margin-right: 22%;
+    margin-top: 12%;
+    border-radius: 10%;
+    float: right;
+    display: flex;
+    animation:mymove 1.5s infinite;
+    -webkit-animation:mymove 1.5s infinite;
+
+}
+
+
+@keyframes mymove{
+    0% {transform: translate(0px, 0px);}
+    50% {transform: translate(0px, -20px);}
+    100% {transform: translate(0px, 0px);}
+
+}
+
+/*Safari 和 Chrome:*/
+@-webkit-keyframes mymove
+{
+    0% {transform: translate(0px, 0px);}
+    50% {transform: translate(0px, -10px);}
+    100% {transform: translate(0px, 0px);}
+}
 
